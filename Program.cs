@@ -23,7 +23,7 @@ namespace dictionaries {
                for each stock.
             */
             foreach (KeyValuePair<string, List<double>> position in purchases) {
-                Console.WriteLine ($"The position in {position.Key} is worth {position.Value.Sum()}");
+                Console.WriteLine ($"The position in {stocks[position.Key]} is worth {position.Value.Sum()}");
             }
 
         }
